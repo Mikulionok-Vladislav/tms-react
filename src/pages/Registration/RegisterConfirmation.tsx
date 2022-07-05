@@ -13,7 +13,7 @@ export const RegistrationConfirmation = ({onClickClose}: IProps) => {
           <Title text="Registration Confirmation" />
           <p>найдете письмо на </p>
           <Link to='/'>
-          <Button text="Home" type="primary" disabled={false} />
+          <Button text="Home" type="primary" disabled={false} onClick={onClickClose}/>
           </Link>
         </div>
     );

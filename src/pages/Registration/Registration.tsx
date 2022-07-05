@@ -14,8 +14,8 @@ export const Registration = () => {
 
   return (
     <div>
-    {active === false ? <RegistrationConfirmation onClickClose={toggle} /> : null}
-    {active === true ? <Register onClickClose={toggle} /> : null}
+    {active === true ? <RegistrationConfirmation onClickClose={toggle} /> : null}
+    {active === false ? <Register onClickClose={toggle} /> : null}
     </div>
   );
 };
